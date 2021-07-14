@@ -1,0 +1,54 @@
+body{
+    background-image: url(wallpprbcgrnd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+div{
+    border-radius: 3rem;
+    margin: 1rem;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#logoImg {
+    
+}
+
+#nomeLogo{
+    font-family: 'Tourney', cursive;
+    font-size: 35px;
+    color: darkmagenta;
+    margin: 2rem;
+
+    
+}
+
+#descLoja{
+    display: flex;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+
+    
+}
+
+#botao1{
+    display: flex;
+    padding-top: 1rem;
+    padding-right: 4rem;
+}
