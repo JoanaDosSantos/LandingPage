@@ -1,14 +1,18 @@
+:root{
+    --jo: white;
+}
+
+html, body, h1, p, button, ul{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-image: url(wallpprbcgrnd.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: cover;
-}
-
-div{
-    border-radius: 3rem;
-    margin: 1rem;
-
+    background-size: 100vw 100vh;
+    backdrop-filter: blur(10px);
 }
 
 .menu{
@@ -17,19 +21,13 @@ div{
     align-items: center;
     align-content: center;
     flex-direction: row;
-    margin-top: 2rem;
-    margin-left: 1rem;
-}
-
-#logoImg {
-    
+    padding: 0 2rem;
 }
 
 #nomeLogo{
     font-family: 'Tourney', cursive;
     font-size: 35px;
     color: darkmagenta;
-    margin: 2rem;
 
     
 }
@@ -38,17 +36,37 @@ div{
     display: flex;
 }
 
-#botoes{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: flex-start;
-
+ul{
+    list-style: none;
     
 }
 
-#botao1{
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+li a{
+
+    text-align: center;
+}
+
+li{
     display: flex;
-    padding-top: 1rem;
-    padding-right: 4rem;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 3rem;
+    border: 1px solid white;
+    margin: 1rem 2rem;
+    box-shadow: 0px 0px 27px #fbc3ff;
+}
+
+
+.lg-img-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
