@@ -17,36 +17,74 @@
 </head>
 
 <body>
+
     <div class="menu">
 
-        <div id="botoes1">
-            <div>
-                <button id="botao1">Login</button>
+        <ul>
+            <li><a href="#" class="linksleft">Nossos produtos</a></li>
+            <li><a href="#" class="linksleft">Nossos parceiros</a></li>
+            <li><a href="#" class="linksleft">Trabalhe conosco</a></li>
+        </ul>
+        <div class="lg-img-txt">
+            <img id="logoImg" src="./assets/logo.png" alt="Logo">
+            <span id="nomeLogo">
+                <strong>PinkBônus Store</strong>
+            </span>
+        </div>
+        <ul>
+            <li><a href="#" class="linksright">Cadastre-se</a></li>
+            <li><a href="#" class="linksright">Entrar</a></li>
+            <li><a href="#" class="linksright">Meus produtos</a></li>
+        </ul>
+    </div>
+
+    <section class="geral">
+        <div class="container">
+            <main class="item0">
+                <img src="./assets/setupGamer.png" alt="setupGamer">
+                <span>A maior e melhor Black Friday de produtos gamers do mercado!<br>TUDO COM ATÉ 60% DE
+                DESCONTO!</span> 
+            </main>
+            <main class="itemvazio"></main>
+            <aside class="items">
+                <img src="./assets/controleProduto.jpg" alt="controleProduto">
+                <span>CONTROLES 30% OFF</span>
+            </aside>
+            <aside class="items">
+                <img src="./assets/foneRosa.png" alt="foneRosa" id="foneRosaImg">
+                <span>FONES 25% OFF</span>
+            </aside>
+            <aside class="items">
+                <img src="./assets/monitorProduto.png" alt="monitorProduto" id="monitorProdutoImg">
+                <span>MONITORES 12% OFF</span>
+            </aside>
+            <aside class="items">
+                <img src="./assets/tecladoProduto.jpg" alt="tecladoProduto">
+                <span>TECLADOS 45% OFF</span>
+            </aside>
+        </div>
+
+        <div class="cronometroOutBox">
+            <div class="cronometroBox">
+                <span id="cronometroCounter">.</span>
             </div>
-            <div>
-                <button id="botao1">Meus pedidos</button>
-            </div>
-            <div>
-                <button id="botao1">Cadastre-se</button>
+            <div class="promoBox">
+                <img src="./assets/promocaoMaluca.png" alt="">
             </div>
         </div>
 
-            <p class="logo" id="nomeLogo"><img class="logo" id="logoImg" src="logo.png" alt="Logo"><strong>PinkBônus
-                    Store</strong></p>
-
-            <div id="botoes">
-                <div>
-                    <button id="botao1">Login</button>
-                </div>
-                <div>
-                    <button id="botao1">Meus pedidos</button>
-                </div>
-                <div>
-                    <button id="botao1">Cadastre-se</button>
-                </div>
+        <div class="cadastroOutBox">
+            <span>Receba nossas notificações por email:</span>
+            <div class="cadastroForm">
+                    <input type="email" name="inpEmail" id="inpEmail" placeholder="Insira seu email aqui">
+                <button id="sendBtn" onclick="notify()">Enviar</button>
             </div>
         </div>
+    </section>
 
+    <footer>&copy;Joana dos Santos</footer>
+
+    <script src="./scripts/main.js"></script>
 </body>
 
 </html>
