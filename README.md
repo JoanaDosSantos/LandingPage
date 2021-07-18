@@ -6,3 +6,6 @@
   a few weeks ago doenst know how to use an input!
   
   Thank you for your access, and i hope you enjoy my little first project! :D
+
+To see the page online, just take a look here:
+https://gifted-montalcini-6b0e5e.netlify.app/
